@@ -1,11 +1,10 @@
-
 (function(){
 'use strict';
 /* ---------- content and configuration (edit here) ---------- */
 var CONFIG={
   links:{
     github:'https://github.com/Siran0715',
-    linkedin:'https://www.linkedin.com/in/siranjeevi-d-49014941',
+    linkedin:'https://www.linkedin.com/in/siranjeevi-d-490149415/',
     eduRepo:'https://github.com/Siran0715/EduVerse_Backend',
     orbitRepo:'https://github.com/Siran0715/Orbit-Meet'
   },
