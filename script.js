@@ -9,7 +9,7 @@ var CONFIG={
     eduRepo:'https://github.com/Siran0715/EduVerse_Backend',
     orbitRepo:'https://github.com/Siran0715/Orbit-Meet'
   },
-  resumeUrl:'' /* paste a public résumé URL here when it is ready */
+  resumeUrl:'Siranjeevi_FSD_Resume.pdf'
 };
 
 var SHOTS=[
@@ -72,7 +72,7 @@ $$('[data-link]').forEach(function(a){a.href=CONFIG.links[a.getAttribute('data-l
 (function(){
   var c=$('#resumeCell');
   if(CONFIG.resumeUrl){
-    c.insertAdjacentHTML('beforeend','<a class="big" href="'+CONFIG.resumeUrl+'" target="_blank" rel="noopener noreferrer">Open résumé</a><p class="muted">Opens in a new tab.</p>');
+    c.insertAdjacentHTML('beforeend','<a class="big" href="'+CONFIG.resumeUrl+'" target="_blank" rel="noopener noreferrer">RESUME <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 3h8v8M13 3 3 13"/></svg></a><p class="muted">Open my full-stack developer résumé.</p>');
   }else{
     c.insertAdjacentHTML('beforeend','<p class="st">Being updated</p><p class="muted">A résumé link will appear here when it is ready.</p>');
   }
